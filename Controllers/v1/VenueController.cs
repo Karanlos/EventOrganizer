@@ -4,13 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using dashmodule.eventorgranizer.Model;
-using dashmodule.eventorgranizer.Manager;
+using DashModule.EventOrgranizer.Model;
+using DashModule.EventOrgranizer.Manager;
+using DashModule.EventOrgranizer.Service;
 
-namespace dashmodule.eventorgranizer.Controllers
+namespace DashModule.EventOrgranizer.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/[controller]")]
     public class VenueController : ControllerBase
     {
         private readonly ILogger<VenueController> _logger;
@@ -21,11 +22,11 @@ namespace dashmodule.eventorgranizer.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Venue> Get()
+        public async Task<IEnumerable<Venue>> GetVenues()
         {
-            var venueManager = new BreweryVenueManager(_logger);
+            var venueService = new BreweryVenueService(_logger);
 
-            return venueManager.GetVenues().Result;
+            return await venueService.GetVenues();
         }
     }
 }

@@ -1,10 +1,10 @@
-﻿using dashmodule.eventorgranizer.Model;
+﻿using DashModule.EventOrgranizer.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventOrganizer.Connector
+namespace DashModule.EventOrganizer.Connector
 {
     public interface IOpenBreweryDbConnector
     {

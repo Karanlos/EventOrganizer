@@ -1,5 +1,10 @@
-namespace dashmodule.eventorgranizer.Model {
-    public class Address {
+using System;
+
+namespace DashModule.EventOrgranizer.Model
+{
+    public class Address
+    {
+        public Guid Id { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
         public string State { get; set; }

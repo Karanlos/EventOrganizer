@@ -1,4 +1,4 @@
-﻿using dashmodule.eventorgranizer.Model;
+﻿using DashModule.EventOrgranizer.Model;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System;
@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace EventOrganizer.Connector
+namespace DashModule.EventOrganizer.Connector
 {
     public class OpenBreweryDbConnector : IOpenBreweryDbConnector
     {

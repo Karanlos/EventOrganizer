@@ -1,9 +1,10 @@
-using dashmodule.eventorgranizer.Model;
+using DashModule.EventOrgranizer.Model;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace dashmodule.eventorgranizer.Manager {
-    public interface IVenueManager {
+namespace DashModule.EventOrgranizer.Service {
+    public interface IVenueService {
         Task<List<Venue>> GetVenues(int page = 0, int pageSize = 10, string filterCity = null, string filterName = null, string filterType = null, string sortBy = null);
     }
 }

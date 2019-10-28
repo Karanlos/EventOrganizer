@@ -1,8 +1,13 @@
+using System;
 using System.Collections.Generic;
-using dashmodule.eventorgranizer.Model;
+using System.Threading.Tasks;
+using DashModule.EventOrgranizer.Model;
 
-namespace dashmodule.eventorgranizer.Manager {
+namespace DashModule.EventOrgranizer.Manager {
     public interface IEventManager {
-        public List<Event> GetEvents();
+        Task<IEnumerable<Event>> GetEvents();
+        Task<Guid> CreateEvent(string name, string description, DateTime startDate, DateTime endDate);
+        Task UpdateEvent(Guid id, string name, string description, DateTime startDate, DateTime endDate);
+        Task DeleteEvent(Guid id);
     }
 }

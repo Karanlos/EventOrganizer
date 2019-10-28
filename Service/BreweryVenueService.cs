@@ -1,18 +1,19 @@
-using dashmodule.eventorgranizer.Connector;
-using dashmodule.eventorgranizer.Convert;
-using dashmodule.eventorgranizer.Model;
+using DashModule.EventOrgranizer.Convert;
+using DashModule.EventOrgranizer.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 using Microsoft.Extensions.Logging;
+using System;
+using DashModule.EventOrganizer.Connector;
 
-namespace dashmodule.eventorgranizer.Manager
+namespace DashModule.EventOrgranizer.Service
 {
-    public class BreweryVenueManager : IVenueManager
+    public class BreweryVenueService : IVenueService
     {
         private ILogger Log { get; set; }
 
-        public BreweryVenueManager(ILogger log)
+        public BreweryVenueService(ILogger log)
         {
             Log = log;
         }
@@ -20,8 +21,8 @@ namespace dashmodule.eventorgranizer.Manager
         public async Task<List<Venue>> GetVenues(int page = 0, int pageSize = 10, string filterCity = null, string filterName = null, string filterType = null, string sortBy = null)
         {
             var breweryConvert = new BreweryConverter();
-            var connector = new OpenBreweryDbQueryBuilder(Log);
-            var breweries = await connector.ByCity(filterCity).ByName(filterName).ByType(filterType).Sort(sortBy, true).Execute();
+            var breweryConnector = new OpenBreweryDbConnector(Log);
+            var breweries = await breweryConnector.GetBreweriesAsync(page, pageSize, filterCity, null, filterName, filterType, null, sortBy);
             return breweries.Select(b => breweryConvert.Convert(b)).ToList();
         }
     }

@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
-using dashmodule.eventorgranizer.Model;
+using System.Threading.Tasks;
+using DashModule.EventOrgranizer.Model;
 using Microsoft.Extensions.Logging;
 
-namespace dashmodule.eventorgranizer.Manager
+namespace DashModule.EventOrgranizer.Manager
 {
     public class EventManager : IEventManager
     {
@@ -14,9 +16,12 @@ namespace dashmodule.eventorgranizer.Manager
             Log = log;
         }
 
-        public List<Event> GetEvents()
-        {
-            throw new System.NotImplementedException();
-        }
+        public Task<IEnumerable<Event>> GetEvents() => throw new System.NotImplementedException();
+
+        public Task<Guid> CreateEvent(string name, string description, DateTime startDate, DateTime endDate) => throw new System.NotImplementedException();
+
+        public Task UpdateEvent(Guid id, string name, string description, DateTime startDate, DateTime endDate) => throw new NotImplementedException();
+
+        public Task DeleteEvent(Guid id) => throw new NotImplementedException();
     }
 }
