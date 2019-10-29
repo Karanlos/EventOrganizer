@@ -59,5 +59,11 @@ namespace DashModule.EventOrgranizer.Controllers
 
             talkManager.DeleteTalk(id);
         }
+
+        [HttpPost]
+        public void Create([FromBody] User user)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -20,6 +20,7 @@ Event REST API designed around Venues, talks and participants.
     * Admin API for super users, who are able to handle all the entities of the exposed APIs
   * Can query Different Venue databases, providing an overview of which venues that can be used for an event.
 * No Unit tests, but should be added to ensure code runs according the the unit specification
+* Logging is stored in Application Insights for easy searching functionality, and help trace problems or other useful information
 
 ## Legal considerations
 
