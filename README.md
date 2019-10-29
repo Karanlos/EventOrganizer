@@ -50,6 +50,7 @@ The service consumes personal data, which should be protected with proper user a
         * Unique ID
         * Claims and Permissions
   * The service uses Auth0 to maintain roles of users, to make it easier to give them the right permissions
+    * Permissions are enforced through Annotations on the endpoints. Currently not working as expected, fallback created, but missing proper validation
     * Eg. a person giving a Talk should be able to create a talk and associate it with an event, but participants should only be able to register to an event
     * Admins have special roles also divided into different roles depending on what they should administer eg. Events
 * Should run with a TLS/SSL enabled connection to ensure traffic sniffers can't hijack tokens
