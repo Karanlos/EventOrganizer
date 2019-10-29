@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using DashModule.EventOrgranizer.Model;
+using DashModule.EventOrganizer.Model;
 
-namespace DashModule.EventOrgranizer.Manager {
+namespace DashModule.EventOrganizer.Manager {
     public interface IEventManager {
         Task<IEnumerable<Event>> GetEvents();
         Task<Guid> CreateEvent(string name, string description, DateTime startDate, DateTime endDate);

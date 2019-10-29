@@ -17,6 +17,8 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Hosting;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Logging;
 
 namespace eventorganizer2
 {
@@ -36,9 +38,8 @@ namespace eventorganizer2
             // Add authentication services
             services.AddAuthentication(options =>
             {
-                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             })
             .AddCookie(options =>
             {
@@ -55,67 +56,9 @@ namespace eventorganizer2
                         return ctx.Response.WriteAsync("Unauthorized");
                     };
             })
-            .AddOpenIdConnect("Auth0", options =>
-            {
-                // Set the authority to your Auth0 domain
-                options.Authority = domain;
-
-                // Configure the Auth0 Client ID and Client Secret
-                options.ClientId = Configuration["Auth0:ClientId"];
-                options.ClientSecret = Configuration["Auth0:ClientSecret"];
-
-                // Set response type to code
-                options.ResponseType = "code";
-
-                // Configure the scope
-                options.Scope.Clear();
-                options.Scope.Add("openid");
-
-                // Set the callback path, so Auth0 will call back to http://localhost:5000/signin-auth0 
-                // Also ensure that you have added the URL as an Allowed Callback URL in your Auth0 dashboard 
-                options.CallbackPath = new PathString("/signin-auth0");
-
-                // Configure the Claims Issuer to be Auth0
-                options.ClaimsIssuer = "Auth0";
-
-                // Saves tokens to the AuthenticationProperties
-                options.SaveTokens = true;
-
-                options.Events = new OpenIdConnectEvents
-                {
-                    // handle the logout redirection 
-                    OnRedirectToIdentityProviderForSignOut = (context) =>
-                    {
-                        var logoutUri = $"https://{Configuration["Auth0:Domain"]}/v2/logout?client_id={Configuration["Auth0:ClientId"]}";
-
-                        var postLogoutUri = context.Properties.RedirectUri;
-                        if (!string.IsNullOrEmpty(postLogoutUri))
-                        {
-                            if (postLogoutUri.StartsWith("/"))
-                            {
-                                // transform to absolute
-                                var request = context.Request;
-                                postLogoutUri = request.Scheme + "://" + request.Host + request.PathBase + postLogoutUri;
-                            }
-                            logoutUri += $"&returnTo={ Uri.EscapeDataString(postLogoutUri)}";
-                        }
-
-                        context.Response.Redirect(logoutUri);
-                        context.HandleResponse();
-
-                        return Task.CompletedTask;
-                    },
-                    OnRedirectToIdentityProvider = context =>
-                    {
-                        context.ProtocolMessage.SetParameter("audience", $"{Configuration["Auth0:ApiIdentifier"]}");
-
-                        return Task.FromResult(0);
-                    }
-                };
-            })
             .AddJwtBearer(options =>
             {
-                options.Authority = $"https://{Configuration["Auth0:Domain"]}";
+                options.Authority = $"https://localhost:5001/";
                 options.Audience = Configuration["Auth0:ApiIdentifier"];
             });
             services.AddAuthorization(options =>
@@ -125,11 +68,17 @@ namespace eventorganizer2
                 options.AddPolicy("create:talk", policy => policy.Requirements.Add(new HasScopeRequirement("create:talk", domain)));
                 options.AddPolicy("delete:talk", policy => policy.Requirements.Add(new HasScopeRequirement("delete:talk", domain)));
             });
+            services.AddSingleton<IConfiguration>(Configuration); 
             services.AddSingleton<IAuthorizationHandler, HasScopeHandler>();
-            services.AddApiVersioning();
+            services.AddApiVersioning(o =>
+            {
+                o.ReportApiVersions = true;
+                o.AssumeDefaultVersionWhenUnspecified = true;
+                o.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1, 0);
+            });
             services.AddSwaggerGen(c =>
                 {
-                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Event Organizer", Version = "v1" });
+                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Event Organizer", Version = "1" });
                 });
             services.AddMvc();
         }
@@ -153,6 +102,7 @@ namespace eventorganizer2
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
+            IdentityModelEventSource.ShowPII = true;
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -195,6 +145,8 @@ namespace eventorganizer2
     {
         protected override Task HandleRequirementAsync(AuthorizationHandlerContext context, HasScopeRequirement requirement)
         {
+
+            var claims = context.User.Claims.ToList();
             // If user does not have the scope claim, get out of here
             if (!context.User.HasClaim(c => c.Type == "scope" && c.Issuer == requirement.Issuer))
                 return Task.CompletedTask;

@@ -1,7 +1,7 @@
 using System;
-using DashModule.EventOrgranizer.Model;
+using DashModule.EventOrganizer.Model;
 
-namespace DashModule.EventOrgranizer.Convert {
+namespace DashModule.EventOrganizer.Convert {
     public class BreweryConverter {
         public Venue Convert(Brewery brewery) {
             return new Venue

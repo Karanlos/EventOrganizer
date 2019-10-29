@@ -4,12 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using DashModule.EventOrgranizer.Model;
-using DashModule.EventOrgranizer.Manager;
+using DashModule.EventOrganizer.Model;
+using DashModule.EventOrganizer.Manager;
 using Microsoft.AspNetCore.Authorization;
 
-namespace DashModule.EventOrgranizer.Controllers
+namespace DashModule.EventOrganizer.Controllers
 {
+    [ApiVersion("1")]
     [ApiController]
     [Route("api/v1/[controller]")]
     public class EventController : ControllerBase

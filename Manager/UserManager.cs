@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using DashModule.EventOrgranizer.Controllers;
-using DashModule.EventOrgranizer.Model;
+using DashModule.EventOrganizer.Controllers;
+using DashModule.EventOrganizer.Model;
 using Microsoft.Extensions.Logging;
 
-namespace DashModule.EventOrgranizer.Manager
+namespace DashModule.EventOrganizer.Manager
 {
 
     public class UserManager : IUserManager

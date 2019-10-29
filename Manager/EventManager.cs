@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using DashModule.EventOrgranizer.Model;
+using DashModule.EventOrganizer.Model;
 using Microsoft.Extensions.Logging;
 
-namespace DashModule.EventOrgranizer.Manager
+namespace DashModule.EventOrganizer.Manager
 {
     public class EventManager : IEventManager
     {

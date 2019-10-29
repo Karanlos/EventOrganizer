@@ -1,6 +1,6 @@
 using System;
 
-namespace DashModule.EventOrgranizer.Model
+namespace DashModule.EventOrganizer.Model
 {
     public class User
     {

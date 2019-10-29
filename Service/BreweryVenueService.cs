@@ -1,5 +1,5 @@
-using DashModule.EventOrgranizer.Convert;
-using DashModule.EventOrgranizer.Model;
+using DashModule.EventOrganizer.Convert;
+using DashModule.EventOrganizer.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using DashModule.EventOrganizer.Connector;
 
-namespace DashModule.EventOrgranizer.Service
+namespace DashModule.EventOrganizer.Service
 {
     public class BreweryVenueService : IVenueService
     {

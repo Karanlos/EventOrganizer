@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DashModule.EventOrgranizer.Model
+namespace DashModule.EventOrganizer.Model
 {
     public class Event
     {

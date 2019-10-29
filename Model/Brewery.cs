@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace DashModule.EventOrgranizer.Model
+namespace DashModule.EventOrganizer.Model
 {
     public partial class Brewery
     {

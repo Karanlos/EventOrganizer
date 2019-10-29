@@ -1,4 +1,4 @@
-﻿using DashModule.EventOrgranizer.Model;
+﻿using DashModule.EventOrganizer.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
