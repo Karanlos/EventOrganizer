@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   style="background-color: rgb(255, 255, 255);"
+   version="1.1"
+   width="751px"
+   height="473px"
+   viewBox="-0.5 -0.5 751 473"
+   content="&lt;mxfile host=&quot;www.diagrameditor.com&quot; modified=&quot;2019-10-29T20:36:30.300Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0&quot; version=&quot;12.1.3&quot; etag=&quot;3mr5nOo4LM7fC7DRtE9G&quot; pages=&quot;1&quot;&gt;&lt;diagram id=&quot;pZ_VmtafJ7MvjUbeJX7N&quot;&gt;3Vnbbts4EP0aA9uHGrpbfkyctFsgRVy42G0faYmRiEqiQVG+5Os7lEhdSDnxJnYabB4cccyhyDNzzozkibvI958Z2qRfaYyziWPF+4l7M3Ecex4G8E9YDtJiuVZjSRiJpa0zrMgjVhOltSIxLgcTOaUZJ5uhMaJFgSM+sCHG6G447YFmw7tuUIINwypCmWn9l8Q8bayhb3X2vzFJUnVn25Lf5EhNloYyRTHd9Uzu7cRdMEp5c5XvFzgT6ClcGr9PR75tN8ZwwU9xcBqHLcoqebarx4phuTl+UCcGLwAXBtew440wRhmtYJHrXUo4Xm1QJIw7CDjYUp5nMLLhUq6PGcf7o3u025NDzmCaY84OMEU6OArXQwtnM9512PszaUt7uLueNCIZ76Rdu4MELiQq4wi5BkK3W7Fxx7pnCSogN5mBFqNVEWOxgPUmCLUHlQg5oYmQPYZQcAaAPDOFKp5afxyUmYaJN4KJcyFMfBOT5RcwLGhRVvlIxihWVXl2FXHKAAJxeAKac4fWOFvSknBCC5iyppzTHCZk4otrFP1KamgXNBN+sJr7UP/11rjKSCJ8OdVwphXPSIEXrVBa5wHf1jjrhlPQx5ntqU8jFu6FQhEYoTDFrYivRFWoVQ2VJYnGkhHHRlF4Fo2+Qo2cT9kYzhAn2+HyY4eWd1hSUiuQAjvQBNLVcCtpxSIsvfrVQF/I1TijL8QRSzA3Fqpj0B77pLDMRlWDMlHr4X5FLMo8Fnv7Tn/hwogZpCYfRonhkjyidT1BZPFG7LLet3898W/AgiQLIggbZiP0yEkcC/9TqHWUJLLpkDvpSn0/XYInyWNNncCZDyLx0Xldpqgp9OGhxK+NXfh6SgES7PBDRGrqzj1l+AmGj9bUCmbKcrOX0WxGh/5oiRmBXYtI9mTLoGmTs4Ni/m6Y2yaHYq7zQuZ6tsbc+cWYOzeiv0D1hLrE/a9oGj5JU5GpoRsOA3geQR86nIW0KkF6cfsHF5VQ2yWjW3iggq4kyES01uIqEVd/3W9wASHbYSDf+oMR3rfu6exwmOaeZ099o5W4WFtn2xdrJhqiD1SqL1z2SHb+UeXSumtf15tThcvXhMvzLyZctvmw+1T0CloIjYlRmdYZbh+rYP3qBaXbf6527Qn/oRaB68bNl6POSQyUzwlJ473/aqflTKCH+uQ2VauagXW5nDEf/7+uVt/ujMRpX4sc4HkqrsvWM3K4brTzbt0a2kJ23zyVnU83Aw2xNhS9wAcjgQ/PIZrmC4L/LJrHyHYy16aWHQ745j3JNzE4sb18TrjfOwl17ryUhP4Fhdt8naJalZhsVa/yPcX5WDcDq/dmGan35u/qgiMF700amDO8Dek9uvkDNp7Ixa7W/exVwRfXvTHO+e+bc74uqy/m3Nnez8Cw+9Ghmd79duPe/gY=&lt;/diagram&gt;&lt;/mxfile&gt;"
+   id="svg100"
+   sodipodi:docname="contextual_diagram_event_organizer.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata104">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2498"
+     inkscape:window-height="1417"
+     id="namedview102"
+     showgrid="false"
+     inkscape:zoom="2.1392099"
+     inkscape:cx="388.11024"
+     inkscape:cy="205.9344"
+     inkscape:window-x="1974"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g98"
+     inkscape:snap-bbox="true" />
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4723"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+  </defs>
+  <g
+     id="g98">
+    <path
+       d="M 322.5 157 C 208.5 157 180 242 271.2 259 C 180 296.4 282.6 378 356.7 344 C 408 412 579 412 636 344 C 750 344 750 276 678.75 242 C 750 174 636 106 536.25 140 C 465 89 351 89 322.5 157 Z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path4" />
+    <g
+       transform="translate(449.5,233.5)"
+       id="g10">
+      <switch
+         id="switch8">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="none"
+           width="30"
+           height="12"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 31px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">Azure</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="15"
+           y="12"
+           fill="#000000"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           id="text6">Azure</text>
+      </switch>
+    </g>
+    <rect
+       x="270"
+       y="242"
+       width="170"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect12" />
+    <g
+       transform="translate(311.5,263.5)"
+       id="g18">
+      <switch
+         id="switch16">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="none"
+           width="86"
+           height="12"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 87px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">Event Organizer</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="43"
+           y="12"
+           fill="#000000"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           id="text14">Event Organizer</text>
+      </switch>
+    </g>
+    <rect
+       x="0"
+       y="202"
+       width="120"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect20" />
+    <g
+       transform="translate(44.5,223.5)"
+       id="g26">
+      <switch
+         id="switch24">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="none"
+           width="31"
+           height="12"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 32px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">Auth0</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="16"
+           y="12"
+           fill="#000000"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           id="text22">Auth0</text>
+      </switch>
+    </g>
+    <ellipse
+       cx="95"
+       cy="7.79"
+       rx="7.5"
+       ry="7.5"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="ellipse28" />
+    <path
+       d="M 95 15.29 L 95 40.29 M 95 20.29 L 80 20.29 M 95 20.29 L 110 20.29 M 95 40.29 L 80 60.29 M 95 40.29 L 110 60.29"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path30" />
+    <g
+       transform="translate(54.5,65.5)"
+       id="g36">
+      <switch
+         id="switch34">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="none"
+           width="80"
+           height="12"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">API Consumer</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="40"
+           y="12"
+           fill="#000000"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           id="text32">API Consumer</text>
+      </switch>
+    </g>
+    <path
+       d="M 90 92 L 61.83 185.9"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path38" />
+    <path
+       d="M 60.32 190.93 L 58.98 183.22 L 61.83 185.9 L 65.69 185.23 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path40" />
+    <g
+       transform="translate(4.5,146.5)"
+       id="g46">
+      <switch
+         id="switch44">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="none"
+           width="130"
+           height="12"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">Authorize and get Token</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="65"
+           y="12"
+           fill="#000000"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           id="text42">Authorize and get Token</text>
+      </switch>
+    </g>
+    <path
+       d="M 150 82 L 332.09 233.9"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path48" />
+    <path
+       d="M 336.12 237.26 L 328.5 235.47 L 332.09 233.9 L 332.99 230.09 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path50" />
+    <g
+       transform="translate(216.5,144.5)"
+       id="g56">
+      <switch
+         id="switch54">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="none"
+           width="43"
+           height="12"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">Call API</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="22"
+           y="12"
+           fill="#000000"
+           text-anchor="middle"
+           font-size="12px"
+           font-family="Helvetica"
+           id="text52">Call API</text>
+      </switch>
+    </g>
+    <rect
+       x="115.78455"
+       y="404.49164"
+       width="120"
+       height="60"
+       pointer-events="none"
+       id="rect58"
+       style="fill:#ffffff;stroke:#000000" />
+    <path
+       d="M 320.63 302 L 209.16 399.31"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path66" />
+    <path
+       d="M 205.21 402.76 L 208.18 395.52 L 209.16 399.31 L 212.78 400.8 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path68" />
+    <path
+       d="M 120 232 L 270 257"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       stroke-dasharray="3 3"
+       pointer-events="none"
+       id="path70" />
+    <path
+       d="M 550 248 C 550 226.67 610 226.67 610 248 L 610 296 C 610 317.33 550 317.33 550 296 Z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path72" />
+    <path
+       d="M 550 248 C 550 264 610 264 610 248"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path74" />
+    <g
+       transform="translate(559.5,275.5)"
+       id="g80">
+      <switch
+         id="switch78">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="none"
+           width="41"
+           height="12"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 42px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">MSSQL</xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="21"
+           y="12"
+           font-size="12px"
+           id="text76"
+           style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">DB</text>
+      </switch>
+    </g>
+    <path
+       d="M 443.06 266 L 543.64 271.64"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path82" />
+    <path
+       d="M 548.88 271.94 L 541.7 275.04 L 543.64 271.64 L 542.09 268.05 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path84" />
+    <rect
+       x="290"
+       y="412"
+       width="120"
+       height="60"
+       fill="#ffffff"
+       stroke="#000000"
+       pointer-events="none"
+       id="rect86" />
+    <g
+       transform="translate(306.5,433.5)"
+       id="g92">
+      <switch
+         id="switch90">
+        <foreignObject
+           style="overflow:visible;"
+           pointer-events="none"
+           width="87"
+           height="12"
+           requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+          <xhtml:div
+             style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 88px; white-space: nowrap; overflow-wrap: normal; text-align: center;">
+            <xhtml:div
+               style="display:inline-block;text-align:inherit;text-decoration:inherit;white-space:normal;">
+              <xhtml:div>Theme Provider</xhtml:div>
+            </xhtml:div>
+          </xhtml:div>
+        </foreignObject>
+        <text
+           x="44"
+           y="12"
+           font-size="12px"
+           id="text88"
+           style="font-size:12px;font-family:Helvetica;text-anchor:middle;fill:#000000">Theme Provider</text>
+      </switch>
+    </g>
+    <path
+       d="M 355 302 L 350.29 405.64"
+       fill="none"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path94" />
+    <path
+       d="M 350.05 410.88 L 346.87 403.73 L 350.29 405.64 L 353.87 404.05 Z"
+       fill="#000000"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="120.64503"
+       y="428.0416"
+       id="text3819"><tspan
+         sodipodi:role="line"
+         x="120.64503"
+         y="428.0416"
+         style="font-size:14.66666698px"
+         id="tspan3829">Venue Provider</tspan><tspan
+         sodipodi:role="line"
+         x="120.64503"
+         y="478.0416"
+         style="font-size:14.66666698px"
+         id="tspan3833" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="122.29776"
+       y="444.56885"
+       id="text3837"><tspan
+         sodipodi:role="line"
+         id="tspan3835"
+         x="122.29776"
+         y="444.56885"
+         style="font-size:12px">(OpenBreweryDb)</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.92569971"
+       x="434.07126"
+       y="147.10857"
+       width="145.894"
+       height="59.910507"
+       pointer-events="none"
+       id="rect12-8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="436.1098"
+       y="179.86858"
+       id="text3873"><tspan
+         sodipodi:role="line"
+         id="tspan3871"
+         x="436.1098"
+         y="179.86858"
+         style="font-size:14.66666698px">Application Insight</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.7;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend);stroke-miterlimit:3.20000005;stroke-dasharray:none"
+       d="m 405.25729,239.2363 27.58028,-56.09547"
+       id="path3893"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
