@@ -29,13 +29,13 @@ namespace DashModule.EventOrganizer.Manager
 
         public Task<Guid> CreateUser(string firstName, string lastName, string email, string phoneNumber, Address address)
         {
-            //TODO: User and create address
+            //TODO: User and create address and persist
             throw new NotImplementedException();
         }
 
         public Task UpdateUser(Guid userId, string firstName, string lastName, string email, string phoneNumber, Address address)
         {
-            //TODO: Update user, check if user already has an address, update or create depending on if it already has
+            //TODO: Update user, check if user already has an address, update or create depending on if it already has and persist
             throw new NotImplementedException();
         }
 

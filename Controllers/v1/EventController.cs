@@ -30,6 +30,14 @@ namespace DashModule.EventOrganizer.Controllers
             return await eventManager.GetEvents();
         }
 
+        [HttpGet, Route("{id}")]
+        public async Task<Event> GetEvent(Guid id)
+        {
+            var eventManager = new EventManager(_logger);
+
+            return await eventManager.GetEvent(id);
+        }
+
         [HttpPost]
         [Authorize]
         public void Create([FromBody] Event e)

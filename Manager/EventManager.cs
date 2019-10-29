@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using DashModule.EventOrganizer.Database;
 using DashModule.EventOrganizer.Model;
 using Microsoft.Extensions.Logging;
 
@@ -14,6 +15,18 @@ namespace DashModule.EventOrganizer.Manager
         public EventManager(ILogger log)
         {
             Log = log;
+        }
+
+        public async Task<Event> GetEvent(Guid id) {
+            var dbContext = new MockDbContext();
+
+            return await dbContext.GetEvent(id);
+        }
+
+        public async Task<User> GetParticipants(Guid eventId) {
+            
+            var eventManager = new EventManager(Log);
+            return await eventManager.GetParticipants(eventId);
         }
 
         public Task<IEnumerable<Event>> GetEvents() => throw new System.NotImplementedException();
