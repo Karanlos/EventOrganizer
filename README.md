@@ -19,6 +19,7 @@ Event REST API designed around Venues, talks and participants.
     * The endpoints handling the entities are meant to be User specific, meaning only they users who owns the Event, talk etc. should be able to access them
     * Admin API for super users, who are able to handle all the entities of the exposed APIs
   * Can query Different Venue databases, providing an overview of which venues that can be used for an event.
+* No Unit tests, but should be added to ensure code runs according the the unit specification
 
 ## Legal considerations
 
